@@ -29,7 +29,7 @@ CREATE TABLE "employees" (
     "birth_date" date   NOT NULL,
     "first_name" VARCHAR(50)   NOT NULL,
     "last_name" VARCHAR(50)   NOT NULL,
-    "sex" VARCHAR(50)   NOT NULL,
+    "sex" VARCHAR(1)   NOT NULL,
     "hire_date" date   NOT NULL,
     CONSTRAINT "pk_employees" PRIMARY KEY (
         "emp_no"
